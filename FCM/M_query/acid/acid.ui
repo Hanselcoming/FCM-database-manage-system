@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1087</width>
+    <height>635</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="5" colspan="5">
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;按酸溶率查询&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;编号&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1" colspan="4">
+       <widget class="QLineEdit" name="inbh"/>
+      </item>
+      <item row="1" column="5" colspan="2">
+       <widget class="QLabel" name="label_20">
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;20%&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="7">
+       <widget class="QLineEdit" name="in20min"/>
+      </item>
+      <item row="1" column="8">
+       <widget class="QLabel" name="label_22">
+        <property name="text">
+         <string>～</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="9">
+       <widget class="QLineEdit" name="in20max"/>
+      </item>
+      <item row="1" column="10">
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;40%&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="11">
+       <widget class="QLineEdit" name="in40min"/>
+      </item>
+      <item row="1" column="12">
+       <widget class="QLabel" name="label_8">
+        <property name="text">
+         <string>～</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="13">
+       <widget class="QLineEdit" name="in40max"/>
+      </item>
+      <item row="2" column="7">
+       <widget class="QLabel" name="label_23">
+        <property name="text">
+         <string>最小值</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="9">
+       <widget class="QLabel" name="label_21">
+        <property name="text">
+         <string>最大值</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="11">
+       <widget class="QLabel" name="label_9">
+        <property name="text">
+         <string>最小值</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="13">
+       <widget class="QLabel" name="label_10">
+        <property name="text">
+         <string>最大值</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="5" rowspan="2">
+       <widget class="QLabel" name="label_6">
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;80%&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="6" rowspan="3" colspan="2">
+       <widget class="QLineEdit" name="in80min"/>
+      </item>
+      <item row="3" column="8" rowspan="2">
+       <widget class="QLabel" name="label_16">
+        <property name="text">
+         <string>～</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="9" rowspan="3">
+       <widget class="QLineEdit" name="in80max"/>
+      </item>
+      <item row="3" column="11" rowspan="3">
+       <widget class="QLineEdit" name="in100min"/>
+      </item>
+      <item row="3" column="12" rowspan="2">
+       <widget class="QLabel" name="label_19">
+        <property name="text">
+         <string>～</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="13" rowspan="3">
+       <widget class="QLineEdit" name="in100max"/>
+      </item>
+      <item row="4" column="0" colspan="2">
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;60%&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="3">
+       <widget class="QLabel" name="label_13">
+        <property name="text">
+         <string>～</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="4" rowspan="2">
+       <widget class="QLineEdit" name="in60max"/>
+      </item>
+      <item row="4" column="10">
+       <widget class="QLabel" name="label_7">
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;100%&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="4">
+       <widget class="QLabel" name="label_12">
+        <property name="text">
+         <string>最大值</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="6" colspan="2">
+       <widget class="QLabel" name="label_14">
+        <property name="text">
+         <string>最小值</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="9">
+       <widget class="QLabel" name="label_15">
+        <property name="text">
+         <string>最大值</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="11">
+       <widget class="QLabel" name="label_17">
+        <property name="text">
+         <string>最小值</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="13">
+       <widget class="QLabel" name="label_18">
+        <property name="text">
+         <string>最大值</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="0">
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;级别&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="1" colspan="4">
+       <widget class="QLineEdit" name="injb"/>
+      </item>
+      <item row="7" column="5" colspan="5">
+       <widget class="QLabel" name="label_24">
+        <property name="text">
+         <string>注：20%表示与20%浓度土酸反应，依次类推</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="0" colspan="14">
+       <widget class="QTableWidget" name="tableWidget">
+        <column>
+         <property name="text">
+          <string>编号</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>20%</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>40%</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>60%</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>80%</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>长径比</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>级别</string>
+         </property>
+        </column>
+       </widget>
+      </item>
+      <item row="6" column="1" colspan="2">
+       <widget class="QLabel" name="label_11">
+        <property name="text">
+         <string>最小值</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="2">
+       <widget class="QLineEdit" name="in60min"/>
+      </item>
+     </layout>
+    </item>
+    <item row="1" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="pushButton_go">
+        <property name="maximumSize">
+         <size>
+          <width>645</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>查询</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_new">
+        <property name="text">
+         <string>刷新</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_exit">
+        <property name="maximumSize">
+         <size>
+          <width>645</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>退出</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1087</width>
+     <height>34</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
